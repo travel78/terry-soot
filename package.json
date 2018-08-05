@@ -7,8 +7,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node ./",
-    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
+    "start": "node index.js",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap"
   },
   "cacheDirectories": [
     "node_modules"
