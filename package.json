@@ -1,0 +1,25 @@
+{
+  "name": "terry-soot",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "8.11.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travel78/terry-soot.git"
+  },
+  "author": "Yuriy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
