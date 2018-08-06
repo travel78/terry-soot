@@ -232,7 +232,7 @@ footer > a {
     margin: 10px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1282px) {
     main {
         width: 100%;
     }
