@@ -45,7 +45,7 @@ body {
 }
 
 main {
-    width: 68%;
+    width: 1280px;
     background-color: white;
     margin: 0 auto;
 }
@@ -232,7 +232,7 @@ footer > a {
     margin: 10px;
 }
 
-@media screen and (max-width: 1282px) {
+@media screen and (max-width: 1360px) {
     main {
         width: 100%;
     }
