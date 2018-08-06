@@ -4,7 +4,7 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    font-family: Proxima Nova, sans-serif;
+    font-family: 'Proxima Nova Rg', Georgia, sans-serif;
 }
 
 h1 {
@@ -31,6 +31,7 @@ h5 {
 }
 
 article > h1 {
+    font-family: 'Proxima Nova Lt';
     font-weight: 300;
     color: #4D4D4F;
 }
@@ -220,6 +221,7 @@ footer {
     justify-content: center;
     margin: 32px 0 33px;
 }
+
 footer > a {
     margin: 10px;
 }
