@@ -20,11 +20,13 @@ h2 {
     font-size: 28px;
     font-weight: 200;
     margin-top: 25px;
+    font-family: 'Proxima Nova Lt';
 }
 
 h3 {
     font-size: 30px;
     font-weight: normal;
+    letter-spacing: 0.33px;
     margin: 33px 0 61px;
 }
 
@@ -166,7 +168,10 @@ article > div {
     padding-left: 18px;
 
 }
-
+.tree-icons p {
+    letter-spacing: 0.2px;
+    line-height: 37px;
+}
 #clients h4 {
     color: #48484A;
     font-size: 26px;
@@ -213,6 +218,7 @@ article > div {
 .team > span {
     text-align: left;
     display: block;
+    font-style: normal;
 }
 
 .team b {
