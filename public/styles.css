@@ -6,33 +6,36 @@
     -webkit-box-sizing: border-box;
     font-family: 'Proxima Nova Rg', Georgia, sans-serif;
 }
-html{
+
+html {
     scroll-behavior: smooth;
+    font-size: 10px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: bold;
 }
 
 h2 {
     color: #4D4D4F;
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: 200;
     margin-top: 25px;
     font-family: 'Proxima Nova Lt';
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: normal;
     letter-spacing: 0.33px;
-    margin: 33px 0 61px;
+    margin: 33px auto 61px;
+    max-width: 750px;
 }
 
 h5 {
     font-family: 'Proxima Nova Lt';
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #999999;
 }
 
@@ -47,7 +50,7 @@ body {
 }
 
 main {
-    width: 1280px;
+    width: 100%;
     background-color: white;
     margin: 0 auto;
 }
@@ -56,7 +59,7 @@ main > header {
     width: 100%;
     padding: 40px 5.5% 109px 5.5%;
     background-color: black;
-    background-image: url("img/head-back.png"),url("img/Webp.net-resizeimage.jpg");
+    background-image: url("img/head-back.png"), url("img/Webp.net-resizeimage.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,10 +81,11 @@ header > nav {
     align-items: flex-start;
     justify-content: space-between;
     flex-grow: 1;
+    padding-left: 10%;
 }
 
 .nav > a {
-    font-size: 16px;
+    font-size: 1.6rem;
     color: white;
     text-decoration: none;
 }
@@ -93,13 +97,13 @@ header > section {
 
 button {
     display: inline-block;
-    width: 175px;
-    height: 45px;
+    width: 17.5rem;
+    height: 4.5rem;
     border: none;
     border-radius: 3px;
     background-color: #0F20E5;
     color: white;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bold;
     cursor: pointer;
 }
@@ -120,12 +124,12 @@ article > h1 {
 }
 
 article > p {
-    font-size: 22px;
+    font-size: 2.2rem;
     color: #5E5E60;
 }
 
 article > span {
-    width: 64px;
+    width: 6.4rem;
     height: 2px;
     margin-bottom: 8px;
     display: inline-block;
@@ -139,10 +143,18 @@ article > div {
     align-items: flex-start;
 }
 
+#solutions img {
+    width: 7.8rem;
+}
+
+#models img {
+    width: 11rem;
+}
+
 .models-footer > div {
     width: 50%;
     color: #757575;
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 200;
     text-align: left;
 }
@@ -168,19 +180,21 @@ article > div {
     padding-left: 18px;
 
 }
+
 .tree-icons p {
     letter-spacing: 0.2px;
     line-height: 37px;
 }
+
 #clients h4 {
     color: #48484A;
-    font-size: 26px;
+    font-size: 2.6rem;
     font-weight: bold;
 }
 
 #clients h6 {
     color: #4A4A4A;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 100;
 }
 
@@ -238,8 +252,20 @@ footer > a {
     margin: 10px;
 }
 
-@media screen and (max-width: 1360px) {
-    main {
-        width: 100%;
+@media screen and (min-width: 1280px) {
+    html {
+        font-size: 12px;
+    }
+
+    h3 {
+        max-width: 1200px;
+    }
+
+    main > header {
+        padding: 40px calc((100% - 1280px) / 2) 109px;
+    }
+
+    article {
+        padding: 70px calc((100% - 1280px) / 2) 130px;
     }
 }
